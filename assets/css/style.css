@@ -1,0 +1,87 @@
+body{
+	padding: 0;
+	margin: 0;
+  background-color: #FFFFFF;
+}
+h1,h2,h3,a{
+	font-family: 'Pacifico', cursive;
+}
+h1{
+	display: inline-block;
+	font-size: 1em;
+}
+h2{
+	text-shadow: 1px 2px black;
+	font-size: 4em;
+	color: green;
+}
+h3{
+	text-shadow: 1px 2px black;
+}
+.navbar{
+	background-color: grey;
+}
+.banner{
+	padding-top: 100px;
+}
+.banner__button{
+	border-radius: 150px;
+}
+.banner__carousel--1{
+    background-image: url(../img/niños3.jpg);
+    background-size: cover;
+    height: 450px;
+}
+.banner__carousel--2{
+    background-image: url(../img/heroe.jpg);
+    background-size: cover;
+    height: 450px;
+
+}
+.banner__carousel--3{
+    background-image: url(../img/niños.jpg);
+    background-size: cover;
+    height: 450px;
+
+}
+.footer{
+	height: 220px;
+	background-color: green;
+}
+.footer__maps{
+	
+}
+@media only screen and (max-width: 700px){
+h2{
+	font-size: 2em;
+  }
+  .footer{
+  	height: 400px;
+  }
+  .footer__icono{
+  	padding: 0;
+  	margin:0;
+  	text-align: center;
+  }
+  .footer__inner{
+  	padding-right: 10px;
+  	font-size: 40px;
+  }
+  .footer__contacto{
+  	display: none;
+  }
+
+	}
+  .encabezado{
+     height: 150px;
+  }      
+  .encabezado h2{
+      padding-top: 20px;
+      color: white;
+  }
+  .encabezado__obj{
+       padding-top: 30px;
+  }
+  .somos p{
+    padding-top: 50px;
+  }

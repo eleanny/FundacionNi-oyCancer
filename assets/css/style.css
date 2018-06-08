@@ -42,7 +42,7 @@ p,ul{
 
 }
 .banner__carousel--3{
-    background-image: url(../img/niños.jpg);
+    background-image: url(../img/manos2.jpg);
     background-size: cover;
     height: 450px;
 
@@ -81,7 +81,7 @@ h2{
 	}
   <!--Nosotros-->
   .encabezado{
-     height: 150px;
+     height: 250px;
   }      
   .encabezado h2{
       padding-top: 20px;
@@ -92,4 +92,8 @@ h2{
   }
   .somos p{
     padding-top: 50px;
+  }
+  <!--Noticias-->
+  .encabezado__notice{
+    
   }

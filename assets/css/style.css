@@ -18,6 +18,9 @@ h2{
 h3{
 	text-shadow: 1px 2px black;
 }
+p,ul{
+  font-family: 'Open Sans', sans-serif;
+}
 .navbar{
 	background-color: grey;
 }
@@ -46,17 +49,19 @@ h3{
 }
 .footer{
 	height: 220px;
-	background-color: green;
 }
 .footer__maps{
 	
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 767px){
 h2{
 	font-size: 2em;
   }
+  .navbar img,h1{
+    display: none;
+  }
   .footer{
-  	height: 400px;
+  	height: 120px;
   }
   .footer__icono{
   	padding: 0;
@@ -65,13 +70,16 @@ h2{
   }
   .footer__inner{
   	padding-right: 10px;
-  	font-size: 40px;
+  	font-size: 20px;
   }
   .footer__contacto{
   	display: none;
   }
-
+  .footer__maps{
+    display: none;
+  }
 	}
+  <!--Nosotros-->
   .encabezado{
      height: 150px;
   }      

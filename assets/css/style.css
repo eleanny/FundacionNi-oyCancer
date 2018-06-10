@@ -1,7 +1,7 @@
 body{
 	padding: 0;
 	margin: 0;
-  background-color: #f6f7c7;
+  background-color: #fffdd0;
 }
 h1,h2,h3,a{
 	font-family: 'Pacifico', cursive;
@@ -51,11 +51,6 @@ p,ul{
 .footer{
   background-color: #2A08A5;
 }
-.footer__inner{
-
-}
-.footer__maps{
-	
 }
 @media only screen and (max-width: 767px){
 h2{
@@ -80,8 +75,8 @@ h2{
      height: 250px;
   }      
   .encabezado h2{
-      padding-top: 20px;
-      color: white;
+     padding-top: 20px;
+     color: white;
   }
   .encabezado__obj{
        padding-top: 30px;

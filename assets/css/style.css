@@ -52,7 +52,7 @@ p,ul{
   background-color: #2A08A5;
 }
 @media only screen and (max-width: 767px){
-h2{
+ h2{
 	font-size: 2em;
   }
   .navbar h1{
@@ -69,7 +69,7 @@ h2{
     padding: 0;
   }
 }
-  <!--Nosotros-->
+<!--Nosotros-->
   .encabezado{
      height: 250px;
   }      

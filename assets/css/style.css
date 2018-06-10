@@ -1,25 +1,26 @@
 body{
 	padding: 0;
 	margin: 0;
-  background-color: #FFFFFF;
+  background-color: #f6f7c7;
 }
 h1,h2,h3,a{
 	font-family: 'Pacifico', cursive;
 }
 h1{
 	display: inline-block;
+  color: #2A08A5;
 	font-size: 1em;
 }
 h2{
 	text-shadow: 1px 2px black;
 	font-size: 4em;
-	color: green;
 }
 h3{
 	text-shadow: 1px 2px black;
 }
 p,ul{
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
 }
 .navbar{
 	background-color: grey;
@@ -42,13 +43,16 @@ p,ul{
 
 }
 .banner__carousel--3{
-    background-image: url(../img/manos2.jpg);
-    background-size: cover;
-    height: 450px;
+  background-image: url(../img/manos2.jpg);
+  background-size: cover;
+  height: 450px;
 
 }
 .footer{
-	height: 220px;
+  background-color: #2A08A5;
+}
+.footer__inner{
+
 }
 .footer__maps{
 	
@@ -57,26 +61,18 @@ p,ul{
 h2{
 	font-size: 2em;
   }
-  .navbar img,h1{
+  .navbar h1{
     display: none;
   }
-  .footer{
-  	height: 120px;
-  }
-  .footer__icono{
-  	padding: 0;
-  	margin:0;
-  	text-align: center;
-  }
-  .footer__inner{
-  	padding-right: 10px;
-  	font-size: 20px;
-  }
-  .footer__contacto{
-  	display: none;
+  .navbar img{
+    width: 50%;
   }
   .footer__maps{
     display: none;
+  }
+  .footer__iconos{
+    font-size: 10px;
+    padding: 0;
   }
 	}
   <!--Nosotros-->
@@ -94,6 +90,17 @@ h2{
     padding-top: 50px;
   }
   <!--Noticias-->
-  .encabezado__notice{
-    
+  .card{
+    width: 15rem;
+  }
+  .blog span{
+    color: black;
+  }
+  @media only screen and (max-width: 767px){
+   .blog{
+    padding-top: 100px;
+   }
+   .blog h5{
+    display: none;
+   }
   }

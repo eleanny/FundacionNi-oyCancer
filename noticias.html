@@ -11,82 +11,115 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<!--barra de navegacion-->
 	<!--Barra de Navegacion-->
 	<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-		<a class="navbar-brand text-primary" href="#"><img src="assets/img/logo.jpg" width="10%"><h1>Fundación niño y cancer</h1>	</a>
+		<a class="navbar-brand text-primary" href="#"><img src="assets/img/logo_pequeno.png" width="30%"><h1 class="pl-2">Fundación niño y cáncer</h1></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link active text-primary" href="#">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link active text-primary" href="index.html">Home <span class="sr-only">(current)</span></a>
 				<a class="nav-item nav-link text-danger" href="nosotros.html">Nosotros</a>
 				<a class="nav-item nav-link text-success" href="noticias.html">Noticias</a>
 			</div>
 		</div>
 	</nav>
-	<!--encabezado-->
+	<!--encabezado
     <section class="encabezado encabezado__notice jumbotron-fluid bg-warning text-center pt-5">
   	 <h2>Noticias</h2>
-    </section>
+    </section>-->
+
     <!--Blog-->
-    <section class="blog">
-    	<div class="container">
+    <section class="blog container pt-5">
     		<div class="row">
-    			<div class="col-md-7 pt-4">
-    				<img src="assets/img/futbolito.png">
-    			</div>
-    			<div class="col-md-5 pt-4 text-center">
-    			 <img src="assets/img/cuadro_inicio.gif"> 
-    			 <h3>Renovación de Unidades de Oncología Infantil</h3>
-    			</div>
-    			
-    		</div>
-    		<div class="row">
-    			 <div class="col-md-8 pt-12">
-    			 	<h3>Finalizó proceso de postulación a Becas de Estudio 2018</h3>
-    			 	<p class="pt-2">El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes y obtener una profesión futura y reinserción en la sociedad.
-                    Las becas podrán atender a los jóvenes con estudios universitarios, técnicos profesionales o de centros de formación técnica. Así también podrán tener alcances  parciales y en ocasiones especiales, totales.
+    			<div class="col-md-8 pt-5">
+    				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                       <ol class="carousel-indicators">
+                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                       </ol>
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img class="d-block w-100" src="assets/img/futbolito.png" alt="First slide">
+                         </div>
+                         <div class="carousel-item">
+                             <img class="d-block w-100" src="https://www.cincopa.com/media-platform/api/thumb.aspx?size=large&fid=AEOA4FuOXIDu&trs=play" alt="Second slide">
+                             <div class="carousel-caption d-md-block">
+                               <h3 class="pt-3 text-danger">Una noche de música, sorpresas y generosidad</h3>
+                               <h5 class="text-white bg-info">Con gran éxito se desarrolló nuestra Tallarinata de Amor y Sonrisas el 30 de agosto en el Estadio del Banco Central. </h5>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                             <img class="d-block w-100" src="https://www.cincopa.com/media-platform/api/thumb.aspx?size=large&fid=AwKA7EOEORVz&trs=play">
+                             <div class="carousel-caption d-md-block">
+                               <h3 class="pt-3 text-primary">Montaña de alegría 2017</h3>
+                               <h5 class="text-white bg-info">Proyecto recreativo y psicoterapéutico que se realiza desde el año 2002. Se traduce en "Una Terapia para el Alma".</h5>
+                             </div>
+                         </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                      </a>
+                </div>
+                    <div class="pt-4 container">
+                        <img src="assets/img/becas.gif" width="70%">
+                        <p class="pt-4">El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes y obtener una profesión futura y reinserción en la sociedad.</p>
 
-                    El año 2018 se otorgaron un total de 28 becas de las cuales 15 corresponden alumnos antiguos y 13 son para alumnos que inician sus estudios superiores  este año 2018.
+                        <p>Las becas podrán atender a los jóvenes con estudios universitarios, técnicos profesionales o de centros de formación técnica. Así también podrán tener alcances  parciales y en ocasiones especiales, totales.</p>
 
-                    Para que estas becas sean bien utilizadas, sean objetivas y sean supervisadas, elaboramos requisitos básicos y similares a los utilizados en el resto de las instituciones que entregan estos beneficios.</p>
-    			 </div>
-    		</div>
-    		<div class="row">
-    		   <div class="col-md-12">
-    			      <p><img src="https://www.cincopa.com/media-platform/api/thumb.aspx?size=large&fid=AEOA4FuOXIDu&trs=play" width="400" height="250" style="width: 400px; height: 250px;"></a></p><p><a href="http://www.ninoycancer.cl/JL/tallarinata/tallarinata.htm?cpembed=AEOA4FuOXIDu"></p>
-    			      <h3 class="pt-3">Una noche de música, sorpresas y generosidad</h3>
-    			      <p class="text-dark">Con gran éxito se desarrolló nuestra Tallarinata de Amor y Sonrisas el 30 de agosto en el Estadio del Banco Central. 
+                        <p>El año 2018 se otorgaron un total de 28 becas de las cuales 15 corresponden alumnos antiguos y 13 son para alumnos que inician sus estudios superiores  este año 2018.</p>
 
-                      La velada estuvo animada por nuestro amigo y permanente colaborador Checho Hirane, además de contar con la extraordinaria presentación de Andrea Tessa y otros artistas invitados.
-
-                      Agradecemos a todos los asistentes que compartieron, donaron dinero y tiempo a esta noble causa, cuyo principal objetivo es entregar una vida más llevadera a los con cáncer atendidos a en los hospitales públicos de nuestro país.</p>
-    		   </div>
-    	    </div>
-    		
-    	</div>
-    	
-    </section>
+                        <p>Para que estas becas sean bien utilizadas, sean objetivas y sean supervisadas, elaboramos requisitos básicos y similares a los utilizados en el resto de las instituciones que entregan estos beneficios.</p>
+                    </div>  
+                    <div>
+                        <h3 class="text-primary"> Agradecimiento a nuestros colaboradores y socios</h3>
+                        <img  class="pt-2" src="assets/img/personas.jpg" width="80%">
+                        <p class="pt-4">Fundación Niño y Cáncer agradece sinceramente a empresas, socios, particulares, colegios y a cada uno de ustedes por su valiosa colaboración prestada durante el periodo 2017.</p>
+                        <p>Para la tarea que nuestra Fundación realiza, el aporte que ustedes han realizado, significa la posibilidad de dar continuidad a nuestros proyectos en beneficios de los niños que son afectados de una enfermedad altamente impactante, como es el cáncer.</p>
+                        <p>Sepan que las ayudas por ustedes proporcionadas se destinó al financiamiento de Becas de Estudios Superiores, Departamentos de Acogida, Mejoramiento de las instalaciones hospitalarias, actividades recreativas, entre otras actividades que la Fundación realiza permanentemente.</p>
+                        <p><span><em><b>Deseamos que este año 2018 sea un excelente año para ustedes y para sus familias y les motivamos, para que esta relación que hemos establecido, continúe creciendo y multiplicándose.</b></em></span></p>
+                    </div>
+    		  </div>
+    		  <div class="col-md-4 pt-5 pb-5">
+    		  	    <div class="card">
+                       <img class="card-img-top" src="assets/img/cuadro_inicio.gif" alt="Card image cap">
+                       <div class="card-body bg-dark">
+                         <h4 class="card-text text-primary">Renovación de Unidades de Oncología Infantil.</h4>
+                      </div>
+                   </div>
+                   <div class="card">
+                       <img class="card-img-top" src="assets/img/personas2.jpg" alt="Card image cap">
+                       <div class="card-body bg-dark">
+                         <h4 class="card-text text-danger">XXI Campimg de los sueños 2018.</h4>
+                      </div>
+                   </div>
+                   <div class="card">
+                       <img class="card-img-top" src="assets/img/sala.jpg" alt="Card image cap">
+                       <div class="card-body bg-dark">
+                         <h4 class="card-text text-info">Visita hospital San Antonio</h4>
+                      </div>
+                   </div>
+    		 </div>
+    	 </div>
+     </section>
     <!--footer-->
-  <footer class="footer pb-0 mb-0 bg-primary">
+    <footer class="footer pb-0 mb-0">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-4 pt-4 footer__maps text-center pr-5">
-					<h3 class="text-white text-center pb-2">Aquí estamos!</h3>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6666.0599647828885!2d-70.53933968518518!3d-33.38387898079301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1528338079411" width="180" height="100" frameborder="0" allowfullscreen></iframe>
-				</div>
-				<div class="col-md-4 footer__iconos text-center pt-5">
-					<a href=""><i class="fab fa-facebook-square fa-3x text-white pt-4 pl-4 footer__inner"></i></a>
-					<a href=""><i class="fab fa-twitter fa-3x text-white pt-4 pl-4 footer__inner"></i></a>
-					<a href=""><i class="fab fa-instagram fa-3x text-white pt-4 pl-4 footer__inner"></i></a>
-				</div>
-				<div class="col-md-4 pt-5 text-white footer__contacto">
-					<a class="text-white" href=""><h3>Contáctanos!</h3></a>
-					<p>Teléfonos: 22170821-22170811</p>
-					<p>Fax: 22170820</p>
-					<p>Email: Fundacion@niñosycancer.cl</p>
+			<div class="row container text-center">
+				<div class="col-md-12 footer__iconos pt-5">
+					<a href="https://www.facebook.com/ninoycancer/"><i class="fab fa-facebook-square fa-3x text-white pt-4 pl-5 pb-3 footer__inner"></i></a>
+					<a href=""><i class="fab fa-twitter fa-3x text-white pt-4 pl-5 pb-3 footer__inner"></i></a>
+					<a href=""><i class="fab fa-instagram fa-3x text-white pt-4 pl-5 pb-3 footer__inner"></i></a>
+                    <div>
+                        <h1 class="text-white">&nbsp &nbsp &nbsp Fundación Niño y Cáncer</h1>
+                    </div>
 				</div>
 			</div>
 		</div>

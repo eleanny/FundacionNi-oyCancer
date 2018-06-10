@@ -12,7 +12,7 @@
 <body>
 	<!--Barra de Navegacion-->
 	<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-		<a class="navbar-brand text-primary" href="#"><img src="assets/img/logo.jpg" width="10%"><h1>Fundación niño y cancer</h1>	</a>
+		<a class="navbar-brand" href="#"><img src="assets/img/logo_pequeno.png" width="30%"><h1 class="pl-2">Fundación niño y cáncer</h1>	</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -29,17 +29,21 @@
 		<div class="carousel-inner">
 			<div class="carousel-item active banner__carousel--1">
 				<div class="carousel-caption d-md-block">
-					<h2 class="text">Unidos Podemos Salvar Vidas</h2>
+					<h2 class="text-primary">Unidos Podemos Salvar Vidas</h2>
 					<button type="button" class="btn banner_button bg-danger text-white">Haz tu aporte!</button>
 				</div>
 			</div>
 			<div class="carousel-item banner__carousel--2">
 				<div class="carousel-caption d-md-block">
-				  <h2 class="text">Pon tu granito de arena!!</h2>
-				  <button type="button" class="btn banner_button bg-danger text-white">Dona ahora!</button>
+				  <h2 class="text-danger">Pon tu granito de arena!!</h2>
+				  <button type="button" class="btn banner_button bg-primary text-white">Dona ahora!</button>
 				</div>
 			</div>
 			<div class="carousel-item banner__carousel--3">
+				<div class="carousel-caption d-md-block">
+				  <h2 class="text-success">Hazte volutario!</h2>
+				  <button type="button" class="btn banner_button bg-info text-white">Contáctanos!</button>
+				</div>
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -87,23 +91,46 @@
 			</div>
 		</section>
 		<!---footer-->
-		<footer class="footer pb-0 mb-0 bg-primary">
-			<div class="container">
-			<div class="row">
-				<div class="col-md-4 pt-4 footer__maps text-center pr-5">
-					<h3 class="text-white text-center pb-2">Aquí estamos!</h3>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6666.0599647828885!2d-70.53933968518518!3d-33.38387898079301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1528338079411" width="180" height="100" frameborder="0" allowfullscreen></iframe>
+		<footer class="footer pb-0 mb-0">
+			<div class="container-fluid">
+			<div class="row footer__inner bg-dark">
+				<div class="col-md-6 pt-4 footer__maps text-center pr-5">
+					<h4 class="text-white text-center pb-2">Aquí estamos!</h4>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6666.0599647828885!2d-70.53933968518518!3d-33.38387898079301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1528338079411" width="300" height="300" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<div class="col-md-4 footer__iconos text-center pt-5">
-					<a href=""><i class="fab fa-facebook-square fa-3x text-white pt-4 pl-4 footer__inner"></i></a>
-					<a href=""><i class="fab fa-twitter fa-3x text-white pt-4 pl-4 footer__inner"></i></a>
-					<a href=""><i class="fab fa-instagram fa-3x text-white pt-4 pl-4 footer__inner"></i></a>
+				<div class="col-md-6">
+					<form>
+					 <h4 class="text-white pt-4">Escríbenos</h4>
+                       <div class="form-row">
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                          </div>
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Apellido">
+                         </div>                     
+                      </div>
+                      <div class="form-group">
+                           <input type="email" class="form-control mt-2" id="exampleFormControlInput1" placeholder="nombre@email.com">
+                           <input type="text" class="form-control mt-2" placeholder="Mensaje">
+                           <button type="button" class="btn btn-info mt-4">Enviar</button>
+                     </div>
+                  </form>
+                   <div class="text-white">
+                        <h4 class="pt-2">Contácto</h4>
+					    <p>Teléfonos: 22170821-22170811</p>
+					    <p>Fax: 22170820</p>
+					    <p>Email: Fundacion@niñosycancer.cl</p>
+				  </div>
 				</div>
-				<div class="col-md-4 pt-5 text-white footer__contacto">
-					<a class="text-white" href=""><h3>Contáctanos!</h3></a>
-					<p>Teléfonos: 22170821-22170811</p>
-					<p>Fax: 22170820</p>
-					<p>Email: Fundacion@niñosycancer.cl</p>
+			</div>
+			<div class="row  container text-center">
+				<div class="col-md-12 footer__iconos pt-5">
+					<a href="https://www.facebook.com/ninoycancer/"><i class="fab fa-facebook-square fa-3x text-white pt-4 pl-5 pb-3 footer__inner"></i></a>
+					<a href=""><i class="fab fa-twitter fa-3x text-white pt-4 pl-5 pb-3 footer__inner"></i></a>
+					<a href=""><i class="fab fa-instagram fa-3x text-white pt-4 pl-5 pb-3 footer__inner"></i></a>
+					<div>
+						<h1 class="text-white">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Fundación Niño y Cáncer</h1>
+					</div>
 				</div>
 			</div>
 		</div>

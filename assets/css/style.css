@@ -51,7 +51,6 @@ p,ul{
 .footer{
   background-color: #2A08A5;
 }
-}
 @media only screen and (max-width: 767px){
 h2{
 	font-size: 2em;
@@ -69,7 +68,7 @@ h2{
     font-size: 10px;
     padding: 0;
   }
-	}
+}
   <!--Nosotros-->
   .encabezado{
      height: 250px;
